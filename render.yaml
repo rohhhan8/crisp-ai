@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: crips-assistant-backend
+    env: node
+    rootDir: ./server
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node index.js"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ASSEMBLYAI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: APILAYER_API_KEY
+        sync: false

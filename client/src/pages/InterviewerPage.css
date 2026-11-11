@@ -1,0 +1,110 @@
+/* InterviewerPage.css */
+.interviewer-page {
+  background-color: #fff;
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-text);
+  margin-bottom: 24px;
+}
+
+.candidate-row {
+  cursor: pointer;
+}
+
+/* Override Ant Design table styles */
+.interviewer-page .ant-table-wrapper {
+  background-color: var(--content-bg);
+  border-radius: 8px;
+}
+
+.interviewer-page .ant-table {
+  border-radius: 8px;
+}
+
+.interviewer-page .ant-table-thead > tr > th {
+  background-color: #f9fafb; /* Slightly off-white for header */
+  font-weight: 600;
+  color: var(--secondary-text);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.interviewer-page .ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.interviewer-page .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #f3f4f6; /* Lighter gray for hover */
+}
+
+/* Modal styles */
+.modal-content h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-text);
+  margin-top: 20px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.modal-content p {
+  margin-bottom: 8px;
+  color: var(--secondary-text);
+}
+
+.modal-content p strong {
+  color: var(--primary-text);
+  font-weight: 500;
+}
+
+.modal-content hr {
+ display: none; /* Replaced by border-bottom on h3 */
+}
+
+.qa-list {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 8px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+}
+
+.qa-item {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.qa-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.vocal-analysis-container {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.vocal-analysis-container h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--primary-text);
+}
+
+.vocal-analysis-container p {
+  font-size: 13px;
+  margin-bottom: 4px;
+}

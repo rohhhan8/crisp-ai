@@ -1,0 +1,84 @@
+/* RoleSelectionPage.css */
+.role-selection-background {
+    background-color: #f0f2f5;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .role-selection-container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Needed for absolute positioning of back button */
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .main-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .role-cards-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .role-card {
+    width: 220px;
+    padding: 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+  }
+  
+  .role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-color: #1890ff;
+  }
+  
+  .card-icon-wrapper {
+    font-size: 3rem;
+    color: #1890ff;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .action-buttons-container {
+    margin-top: 30px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .role-specific-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }

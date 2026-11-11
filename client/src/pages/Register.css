@@ -1,0 +1,48 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Changed from height to min-height */
+  background-color: #f0f2f5; /* Lighter gray background */
+}
+
+.register-form {
+  padding: 2rem 2.5rem; /* Increased padding */
+  background-color: #fff;
+  border-radius: 10px; /* Slightly more rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  width: 400px;
+  max-width: 95%; /* Adjusted max-width */
+  text-align: center; /* Center align text */
+}
+
+.register-form h2 {
+  margin-bottom: 2rem; /* Increased margin */
+  color: #333;
+  font-size: 2rem; /* Larger font size */
+}
+
+.register-form .ant-form-item {
+  margin-bottom: 1.5rem; /* Increased margin */
+}
+
+.register-form .ant-btn-primary {
+  width: 100%;
+  height: 40px; /* Taller button */
+  font-size: 1rem; /* Larger font size */
+}
+
+/* Style for the link to login page */
+.register-form p {
+  margin-top: 1.5rem;
+  color: #666;
+}
+
+.register-form p a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.register-form p a:hover {
+  text-decoration: underline;
+}

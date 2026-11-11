@@ -1,0 +1,19 @@
+.header {
+    background-color: #fff;
+    padding: 0 24px;
+    box-shadow: 0 2px 8px #f0f1f2;
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+.header-title-link {
+    text-decoration: none;
+    color: inherit;
+}
